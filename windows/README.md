@@ -30,54 +30,54 @@ Opencv DNN Support on windows
     ```
 7. Run Cmake GUI
     - In Where is the source code, Select the main opencv extracted folder.
-    - In Where to build the binaries, Select the empty build folder we created above.
+    - In Where to build the binaries, Select the empty build folder we created above.</br>
      ![cmake](../resource/windows/7/a.png)
     - Click on Configure.
     - I have Visual Studio 2022 installed, so I selected Visual Studio 17 2022.
-    - In the Optional platform for the generator, select x64.
+    - In the Optional platform for the generator, select x64.</br>
     ![cmake](../resource/windows/7/b.png)
     - Click on Finish.
-    - Once the configuration is done, you will see a lot of options.
+    - Once the configuration is done, you will see a lot of options.</br>
     ![cmmake](../resource/windows/7/c.png)
     - # Now search the following…
-    - WITH_CUDA and tick/check it.
+    - WITH_CUDA and tick/check it.</br>
     ![cmake](../resource/windows/7/d.png)
-    - OPENCV_DNN_CUDA and tick/check it.
+    - OPENCV_DNN_CUDA and tick/check it.</br>
     ![cmake](../resource/windows/7/e.png)
-    - ENABLE_FAST_MATH and tick/check it.
+    - ENABLE_FAST_MATH and tick/check it.</br>
     ![cmake](../resource/windows/7/f.png)
-    - OPENCV_EXTRA_MODULES_PATH: and browse to the module folder in opencv-contrib we extracted in step 3.
+    - OPENCV_EXTRA_MODULES_PATH: and browse to the module folder in opencv-contrib we extracted in step 3.</br>
     ![cmake](../resource/windows/7/g.png)
-    - Click on Configure again.
+    - Click on Configure again.</br>
     ![cmmake](../resource/windows/7/h.png)
-    - Once you see, Configuring done, check CUDA_FAST_MATH also.
+    - Once you see, Configuring done, check CUDA_FAST_MATH also.</br>
     ![cmake](../resource/windows/7/i.png)
     - Now go to this [link](https://en.wikipedia.org/wiki/CUDA#:~:text=GPUs%20supported%5Bedit%5D) and check your compute capability against your graphic card.
-      Mine is NvidiaRTX 4060, so my arch is 8.9
+      Mine is NvidiaRTX 4060, so my arch is 8.9</br>
     ![cmake](../resource/windows/7/j.png)
-    - Delete all values except your Compute Capability.
+    - Delete all values except your Compute Capability.</br>
     ![cmake](../resource/windows/7/k.png)
     - Again hit on the Configure button for the final time.
-    - Once done, finally hit the Generate button.
+    - Once done, finally hit the Generate button.</br>
     ![cmake](../resource/windows/7/l.png)
-    - Now you will see a lot of files in your build folder.
+    - Now you will see a lot of files in your build folder.</br>
     ![cmake](../resource/windows/7/m.png)
 8. Build OpenCV with CUDA and cuDNN support
-    - We will have a file like this OpenCV.sln.
+    - We will have a file like this OpenCV.sln.</br>
     ![cmake](../resource/windows/8/a.png)
     - Now open the CMD Terminal in Administrator mode from the start menu.
     - Change the directory to your build folder using cd command and run OpenCV.sln.
-    - It will open up Visual Studio.
+    - It will open up Visual Studio.</br>
     ![cmake](../resource/windows/8/b.png)
-    - Once Visual Studio is opened, change Debug to Release.
-    ![cmake](../resource/windows/8/c.png)
+    - Once Visual Studio is opened, change Debug to Release.</br>
+    ![cmake](../resource/windows/8/c.png)</br>
     ![cmake](../resource/windows/8/d.png)
     - Now right-click on the Solution OpenCV and click on Build Solution. 
-    - It will take some time to build.
+    - It will take some time to build.</br>
     ![cmake](../resource/windows/8/e.png)
-    - Once the build is done, you will see a message like this.
+    - Once the build is done, you will see a message like this.</br>
     ![cmake](../resource/windows/8/f.png)
-    - Now right click on INSTALL and build.
+    - Now right click on INSTALL and build.</br>
     ![cmake](../resource/windows/8/g.png)
     - Close Visual Studio.
 ## Congratulations, you have successfully installed OpenCV with Cuda support.
@@ -91,7 +91,7 @@ Opencv DNN Support on windows
     cv2.cuda.getCudaEnabledDeviceCount()
     ```
     - If you see the version of OpenCV, you have successfully installed OpenCV with Cuda support.
-    - If you see the number of Cuda devices, you have successfully installed OpenCV with Cuda support.
+    - If you see the number of Cuda devices, you have successfully installed OpenCV with Cuda support.</br>
     ![cmake](../resource/windows/9/a.png)
 
     - Validation of OpenCV with Cuda support and time comparision CPU vs GPU.
@@ -118,7 +118,7 @@ Opencv DNN Support on windows
         cv.gemm(npMat1,npMat2,1,None,0,None,1)
     print("CPU --- %s seconds ---" % (time.time() - start_time))
     ```
-    - If you see the time difference between CPU and GPU, you have successfully installed OpenCV with Cuda support.
+    - If you see the time difference between CPU and GPU, you have successfully installed OpenCV with Cuda support.</br>
     ![cmake](../resource/windows/9/b.png)
 
 9. Set Environment Variables
