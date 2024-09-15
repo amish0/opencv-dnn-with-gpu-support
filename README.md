@@ -5,9 +5,9 @@ Opencv DNN Support on windows
 
 # Steps
 1. Install CMake
-    - Download and install CMake from [here](https://cmake.org/download/).
+    - Download and install CMake from [here](https://cmake.org/download/) to build OpenCV with cuda and cudnn support.
     - Add CMake to the system path.
-2. Install Visual Studio 2019
+2. Install Visual Studio
     - Download and install Visual Studio 2019 from [here](https://visualstudio.microsoft.com/downloads/).
 3. Install CUDA Toolkit
     - Download and install CUDA Toolkit from [here](https://developer.nvidia.com/cuda-toolkit-archive).
@@ -28,7 +28,10 @@ Opencv DNN Support on windows
     git clone https://github.com/opencv/opencv_contrib.git
     git clone https://github.com/opencv/opencv.git
     ```
-7. Create a build directory
+7. Run Cmake GUI
+    - In Where is the source code, Select the main opencv extracted folder.
+    - In Where to build the binaries, Select the empty build folder we created above.
+     ![cmake](resource/windows/7/a.png)
 
 # Reference:
 - Linux: 
