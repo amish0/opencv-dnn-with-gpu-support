@@ -20,13 +20,13 @@ This repository contains the steps to build OpenCV with DNN support on Windows, 
 </h1>
 
 ## Windows
-Detailed instructions and setup for Windows. click [here](./windows/README.md) for more details.
+Detailed instructions and setup for Windows. click [here](windows/README.md) for more details.
 
 ## Linux
-Detailed instructions and setup for Linux. click [here](./linux/README.md) for more details.
+Detailed instructions and setup for Linux. click [here](linux/README.md) for more details.
 
 ## Jetson Nano
-Detailed instructions and setup for Jetson Nano. click [here](./jetson-nano/README.md) for more details.
+Detailed instructions and setup for Jetson Nano. click [here](jetson-nano/README.md) for more details.
 
 ## Reference:
 - Linux: 
