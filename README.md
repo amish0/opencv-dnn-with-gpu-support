@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width = "100%" src="resource/opencv.jpeg">
+  <img width = "25%" src="resource/opencv.jpeg">
   <img width = "25%" src="resource/jetson-nano.webp">
 </h1>
 <h3 align="center">
