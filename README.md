@@ -9,13 +9,13 @@ This repository contains the steps to build OpenCV with DNN support on Windows, 
 </h3>
 
 <a href="./windows/README.md">
-    <img src="resource/widnows.jpg" alt="Windows" width="50" height="50">
+    <img src="resource/widnows.jpg" alt="Windows" width="150" height="100">
 </a> |
 <a href="./linux/README.md">
-    <img src="resource/th.jpeg" alt="Linux" width="50" height="50">
+    <img src="resource/th.jpeg" alt="Linux" width="150" height="100">
 </a> |
 <a href="./jetson-nano/README.md">
-    <img src="resource/jetson-nano.webp" alt="Jetson Nano" width="50" height="50">
+    <img src="resource/jetson-nano.webp" alt="Jetson Nano" width="150" height="100">
 </a>
 
 ## Windows
