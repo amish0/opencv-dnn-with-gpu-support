@@ -22,8 +22,12 @@ Opencv DNN Support on windows
     - Download and install anaconda from [here](https://www.anaconda.com/download).
     Install NumPy from the terminal using pip install numpy.
 6. clone opencv and opencv_contrib
-    - clone opencv from [here](git clone https://github.com/opencv/opencv.git)
-    - clone opencv_contrib from [here](git clone git clone https://github.com/opencv/opencv_contrib.git
+    - clone opencv from [here](https://github.com/opencv/opencv.git)
+    - clone opencv_contrib from [here](https://github.com/opencv/opencv_contrib.git)
+    ```bash
+    git clone https://github.com/opencv/opencv_contrib.git
+    git clone https://github.com/opencv/opencv.git
+    ```
 7. Create a build directory
 
 # Reference:
