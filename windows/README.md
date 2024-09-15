@@ -1,10 +1,11 @@
-<h1 align="center>
-    <img src="../resource/widnows.jpg" alt="description" style="width:100%;">
-</h1>
-Opencv DNN Support on windows
+
+<img src="../resource/widnows.jpg" alt="description" style="width:100%;">
+<h1 align="center">
+Opencv DNN Support on windows</br>
 =============================
 - This repository contains the steps to build OpenCV with DNN support on Windows.
 - The steps are tested on Windows 11 with Visual Studio 2022.
+</h1>
 
 # Steps
 1. Install CMake
