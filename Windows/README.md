@@ -39,3 +39,4 @@ Opencv DNN Support on windows
 - Windows: 
     - https://learnopencv.com/how-to-use-opencv-dnn-module-with-nvidia-gpu-on-windows/
     - https://machinelearningprojects.net/build-opencv-with-cuda-and-cudnn/
+    - https://medium.com/analytics-vidhya/build-opencv-from-source-with-cuda-for-gpu-access-on-windows-5cd0ce2b9b37
