@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img width = "100", height="75", src="resource/opencv.jpeg">
-  <img width = "100", height="75", src="resource/jetson-nano.webp">
+  <img width = "100" height="75" src="resource/opencv.jpeg">
+  <img width = "100" height="75" src="resource/jetson-nano.webp">
 </h1>
 <h3 align="center">
 Opencv DNN Support on windows, Linux and Jetson Nano<br>
